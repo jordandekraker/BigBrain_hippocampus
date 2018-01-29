@@ -35,7 +35,7 @@ for LR = 'lr'
     PDind(n) = PD(x(n),y(n),z(n));
     end
     
-    save(sprintf('unfolded.%s/indexed/curvatures.mat',LR),'APind','PDind','meancurve','medSurf');
+    save(sprintf('unfolded.%s/indexed/curvatures.mat',LR),'APind','PDind','meancurve','medSurf','threshold');
     
     % plot
     figure('units','normalized','outerposition',[0 0 1 1]);
